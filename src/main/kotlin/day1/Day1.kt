@@ -1,3 +1,5 @@
+package day1
+
 object Day1 {
     fun part1Solution(input: String) = captchaPart1(input.map { "$it".toLong() })
     fun part2Solution(input: String) = captchaPart2(input.map { "$it".toLong() })
